@@ -1,0 +1,22 @@
+AI Security Log Analyzer Report
+================================
+
+Time-Based Attack Detected:
+192.168.1.10 - Multiple failed logins within 1 minute
+
+Summary Report:
+Total Failed Attempts: 7
+Total Successful Logins: 2
+Successful Users: john, admin
+
+Most Targeted User: admin
+Attack Attempts: 6
+
+Risk Breakdown:
+High Risk IPs: 192.168.1.10
+Medium Risk IPs: None
+Low Risk IPs: 192.168.1.20, 192.168.1.50
+
+Final Assessment:
+System Under Attack! Immediate Action Required!
+Severity Level: HIGH
