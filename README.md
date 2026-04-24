@@ -3,14 +3,18 @@
 
 This project is a Python-based SOC-style log analyzer that detects suspicious login activity from a sample log file.
 
-## Features
+## Project Highlights
 
-- Reads login logs from `sample_log.txt`
-- Detects failed and successful login attempts
-- Identifies high-risk IP addresses
-- Detects possible brute-force attacks
-- Uses timestamp-based detection for multiple failed logins within 1 minute
-- Generates a security report in `report.txt`
+- Built a SOC-style log analysis tool using Python
+- Detected brute-force attacks using timestamp-based analysis
+- Classified IP risk levels (High, Medium, Low)
+- Generated automated security reports for incident response
+
+## Future Improvements
+
+- Integration with SIEM tools (Splunk)
+- Real-time log monitoring
+- Alert system via email/Slack
 
 ## Log Format
 
